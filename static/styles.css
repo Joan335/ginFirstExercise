@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;  
+    font-family: 'Inter';
+    background: #fef8fb;
+}
+
+h1 {
+    font-size: 100px;
+    background: linear-gradient(to right, #ff6b6b, #5f27cd);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 30px;
+}
+
+.p-grande {
+    margin: 5px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #af499c;
+}
+
+.p-pequenio {
+    margin: 5px;
+    font-size: 25px;
+    font-weight: 300;
+    color: #af499c;
+}
+
+.hora {
+    margin: 5px;
+    font-size: 40px;
+    color: #af499c;   
+}
+
+button {
+    margin: 50px;
+    padding: 15px 40px 15px 40px;
+    background: linear-gradient(90deg, #ff6b6b, #5f27cd);
+    color: white;
+    font-size: 25px;
+    font-family: 'Inter';
+    font-weight: 700;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background: linear-gradient(135deg, #ff6b6b, #5f27cd); /* Mantener el gradiente */
+    color: white; /* Mantener el texto blanco */
+    transform: scale(1.05); /* Eleva el botón */
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2); /* Sombra más fuerte */
+}
+

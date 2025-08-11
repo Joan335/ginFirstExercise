@@ -3,9 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Current Time</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
 </head>
 <body>
-    <h1>Hola Mundo</h1>
+    <h1>Bienvenido</h1>
+    <p class="p-grande">¿Quieres conocer la hora actual?</p>
+    <p class="p-pequenio">¡Oprime el botón!</p>
+    <button onclick="showCurrentTime()">Ver Hora Actual</button>
+    <script src="/static/script.js"></script>
+    <p class="hora" id="hora"></p>   
 </body>
 </html>
